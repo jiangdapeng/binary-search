@@ -27,7 +27,7 @@ void set(int n)
 
 /**
  * test whether bit n is 1
- * /
+ */
 bool test(int n)
 {
 	return (bg[n/BLOCK_SIZE] & (MASK <<  (n%BLOCK_SIZE)))!=0 ;
